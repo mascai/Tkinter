@@ -45,8 +45,8 @@ c_GB  = Checkbutton(text="Gradient Boosting", relief=SUNKEN, variable=var_GB, on
 c_KM  = Checkbutton(text="K-means", relief=SUNKEN, variable=var_KM, onvalue=1, offvalue=0).grid(row=4, sticky=W, padx= (570,0))
 
 
-button1 = Button(text='Start POX',fg='red',relief=SUNKEN, font='arial 14', command=button_clicked).grid(row=4, column=1)
-button2 = Button(text='Start Mininet',fg='red',relief=SUNKEN, font='arial 14', command=start).grid(row=5, column=1)
+button1 = Button(text='Start Mininet',fg='red',relief=SUNKEN, font='arial 14', command=button_clicked).grid(row=4, column=1)
+button2 = Button(text='Start POX',fg='red',relief=SUNKEN, font='arial 14', command=start).grid(row=5, column=1)
 mainloop()
 
 
