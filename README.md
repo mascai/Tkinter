@@ -1,2 +1,2 @@
 # Tkinter
-Tkinter usefull examples
+Tkinter examples
